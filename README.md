@@ -8,3 +8,6 @@ Installation
 # to use mariadb:
 DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name?serverVersion=mariadb-10.5.8"
 https://symfony.com/doc/current/doctrine.html
+
+Set database for the Jobeet project:
+$ php symfony configure:database "mysql://root:anroiD@741@127.0.0.1:3307/jobeet?serverVersion=mariadb-10.3.9" root anroiD@741
