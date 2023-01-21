@@ -1,0 +1,48 @@
+Jan 21 11:22:20 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /frontend_dev with parameters array (  'module' => 'frontend_dev',  'action' => 'index',)
+Jan 21 11:22:20 symfony [info] {sfFrontWebController} Action "frontend_dev/index" does not exist
+Jan 21 11:22:20 symfony [err] {sfError404Exception} Action "frontend_dev/index" does not exist.
+Jan 21 11:22:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 11:22:25 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\sfassignment\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\sfassignment\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Jan 21 11:22:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 11:22:25 symfony [info] {sfWebDebugLogger} Configuration 27389.10 ms (5)
+Jan 21 11:22:25 symfony [info] {sfWebDebugLogger} Factories 23733.15 ms (1)
+Jan 21 11:22:30 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jan 21 11:22:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 11:22:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 11:22:33 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jan 21 11:22:34 symfony [info] {sfPHPView} Render "D:\wamp64\www\sfassignment\lib\vendor\symfony\lib/controller/default/templates/indexSuccess.php"
+Jan 21 11:22:35 symfony [info] {sfPHPView} Decorate content with "D:\wamp64\www\sfassignment\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Jan 21 11:22:35 symfony [info] {sfPHPView} Render "D:\wamp64\www\sfassignment\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Jan 21 11:22:35 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\sfassignment\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\sfassignment\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Jan 21 11:22:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 11:22:35 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\sfassignment\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\sfassignment\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Jan 21 11:22:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 11:22:35 symfony [info] {sfWebDebugLogger} Configuration 3063.77 ms (10)
+Jan 21 11:22:35 symfony [info] {sfWebDebugLogger} Factories 1656.69 ms (1)
+Jan 21 11:22:35 symfony [info] {sfWebDebugLogger} Action "default/index" 28.75 ms (1)
+Jan 21 11:22:35 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 1361.94 ms (1)
+Jan 21 11:22:41 symfony [info] {sfWebResponse} Send content (31657 o)
+Jan 21 11:22:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /frontend_dev with parameters array (  'module' => 'frontend_dev',  'action' => 'index',)
+Jan 21 11:23:06 symfony [info] {sfFrontWebController} Action "frontend_dev/index" does not exist
+Jan 21 11:23:06 symfony [err] {sfError404Exception} Action "frontend_dev/index" does not exist.
+Jan 21 11:23:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 11:23:10 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\sfassignment\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\sfassignment\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Jan 21 11:23:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 11:23:10 symfony [info] {sfWebDebugLogger} Configuration 214.37 ms (5)
+Jan 21 11:23:10 symfony [info] {sfWebDebugLogger} Factories 7922.47 ms (1)
+Jan 21 11:46:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jan 21 11:46:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 11:46:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 11:46:03 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jan 21 11:46:03 symfony [info] {sfPHPView} Render "D:\wamp64\www\sfassignment\lib\vendor\symfony\lib/controller/default/templates/indexSuccess.php"
+Jan 21 11:46:04 symfony [info] {sfPHPView} Decorate content with "D:\wamp64\www\sfassignment\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Jan 21 11:46:04 symfony [info] {sfPHPView} Render "D:\wamp64\www\sfassignment\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Jan 21 11:46:04 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\sfassignment\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\sfassignment\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Jan 21 11:46:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 11:46:04 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\sfassignment\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\sfassignment\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Jan 21 11:46:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 11:46:04 symfony [info] {sfWebDebugLogger} Configuration 273.76 ms (9)
+Jan 21 11:46:04 symfony [info] {sfWebDebugLogger} Factories 775.50 ms (1)
+Jan 21 11:46:04 symfony [info] {sfWebDebugLogger} Action "default/index" 42.54 ms (1)
+Jan 21 11:46:04 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 673.54 ms (1)
+Jan 21 11:46:10 symfony [info] {sfWebResponse} Send content (30599 o)
