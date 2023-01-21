@@ -5,6 +5,6 @@ all:
   doctrine:
     class: sfDoctrineDatabase
     param:
-      dsn:      mysql:host=localhost;dbname=orangeapi
+      dsn: mysql://root:anroiD741@localhost:3307/jobeet
       username: root
-      password: 
+      password: anroiD741
