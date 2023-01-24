@@ -25,7 +25,7 @@
   <tbody>
     <?php foreach ($jobeet_jobs as $jobeet_job): ?>
     <tr>
-      <td><a href="<?php echo url_for('job/show?id='.$jobeet_job->getId()) ?>"><?php echo $jobeet_job->getId() ?></a></td>
+      <td><a href="<?php echo url_for('job_show_user', $jobeet_job) ?>"><?php echo $jobeet_job->getId() ?></a></td>
       <td><?php echo $jobeet_job->getCategoryId() ?></td>
       <td><?php echo $jobeet_job->getType() ?></td>
       <td><?php echo $jobeet_job->getCompany() ?></td>
